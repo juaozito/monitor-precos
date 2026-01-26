@@ -1,4 +1,4 @@
-# 🚀 Monitor de Preços
+# 🚀 Monitor de Preços - Em Andamento...
 
 Sistema de monitoramento inteligente desenvolvido para capturar e exibir preços, títulos e imagens de produtos do Marketplaces em tempo real. Este projeto demonstra a integração entre um robô de **Web Scraping** e uma interface **Web dinâmica**.
 
