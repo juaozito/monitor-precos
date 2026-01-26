@@ -1,0 +1,89 @@
+/* Configuração Geral da Página */
+body {
+    background-color: #f0f2f5; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container Principal do Card */
+.card {
+    background: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo da Imagem do Produto */
+.produto-img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px; /* Mantém um espaço fixo para a imagem */
+    object-fit: contain; /* Não distorce a imagem */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo do Nome do Produto */
+.produto-nome {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    min-height: 3em; /* Garante alinhamento mesmo com títulos curtos */
+}
+
+/* Estilo do Preço */
+.preco-box {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.moeda {
+    font-size: 1.2rem;
+    color: #27ae60;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.valor {
+    font-size: 2.2rem;
+    color: #27ae60;
+    font-weight: 800;
+}
+
+/* Estilo do Botão */
+.botao-update {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao-update:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
