@@ -1,6 +1,6 @@
-# 🚀 Monitor de Preços - Mercado Livre
+# 🚀 Monitor de Preços
 
-Sistema de monitoramento inteligente desenvolvido para capturar e exibir preços, títulos e imagens de produtos do Mercado Livre em tempo real. Este projeto demonstra a integração entre um robô de **Web Scraping** e uma interface **Web dinâmica**.
+Sistema de monitoramento inteligente desenvolvido para capturar e exibir preços, títulos e imagens de produtos do Marketplaces em tempo real. Este projeto demonstra a integração entre um robô de **Web Scraping** e uma interface **Web dinâmica**.
 
 ---
 
