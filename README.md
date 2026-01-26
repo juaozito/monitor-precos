@@ -2,7 +2,6 @@
 
 Sistema de monitoramento inteligente desenvolvido para capturar e exibir preços, títulos e imagens de produtos do Marketplaces em tempo real. Este projeto demonstra a integração entre um robô de **Web Scraping** e uma interface **Web dinâmica**.
 
----
 
 ## 💻 Sobre o Projeto
 
@@ -17,14 +16,11 @@ O projeto nasceu da necessidade de acompanhar as variações de preços de forma
 * **Design Responsivo:** Interface limpa que se adapta a diferentes tamanhos de tela.
   
 * **Tratamento de Exceções:** Sistema preparado para manter a execução estável mesmo diante de mudanças no layout do site monitorado.
-
----
+  
 
 ## 🛠️ Tecnologias e Ferramentas
 
 | Tecnologia | Descrição |
-
-| :--- | :--- |
 
 | **Python** | Linguagem principal do backend |
 
@@ -36,7 +32,6 @@ O projeto nasceu da necessidade de acompanhar as variações de preços de forma
 
 | **HTML5/CSS3** | Estruturação e estilização da interface |
 
----
 
 ## 🚀 Como Executar
 
