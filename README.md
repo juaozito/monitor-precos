@@ -38,3 +38,9 @@ O projeto nasceu da necessidade de acompanhar as variações de preços de forma
 1. **Clone este repositório:**
 
    git clone [https://github.com/seu-usuario/monitor-preco.git](https://github.com/seu-usuario/monitor-preco.git)
+
+   <div align="center">
+  <h3>👨‍💻 Desenvolvedor</h3>
+  <p>Este projeto foi desenvolvido com foco em aprendizado de engenharia de software e automação por:</p>
+  <p><strong>João Lucas Rebouças de Souza</strong></p>
+</div>
