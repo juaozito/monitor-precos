@@ -10,26 +10,33 @@
     <div class="container">
         <header>
             <h1>Monitor de Preços 🚀</h1>
+            <form action="/" method="POST" class="busca-container">
+                <input type="text" name="url_produto" placeholder="Cole o link do Mercado Livre aqui..." required>
+                <button type="submit">Monitorar</button>
+            </form>
         </header>
+       <div class="card">
+    {% if produto.imagem %}
+        <div class="img-container">
+            <img src="{{ produto.imagem }}" alt="Foto do Produto" class="produto-img">
+        </div>
+    {% else %}
+        <div class="img-container">
+            <span style="font-size: 50px;">📷</span>
+        </div>
+    {% endif %}
 
-        <div class="card">
-            
-            {% if produto.imagem %}
-                <div class="img-container">
-                    <img src="{{ produto.imagem }}" alt="Foto do Produto" class="produto-img">
-                </div>
-            {% endif %}
+    <p class="produto-nome">{{ produto.titulo }}</p>
+    
+    <div class="preco-box">
+        <span class="moeda">R$</span>
+        <span class="valor">{{ produto.preco }}</span>
+    </div>
 
-            <p class="produto-nome">{{ produto.titulo }}</p>
-            
-            <div class="preco-box">
-                <span class="moeda">R$</span>
-                <span class="valor">{{ produto.preco }}</span>
-            </div>
-
-            <button onclick="location.reload()" class="botao-update">
-                <span class="icon">🔄</span> Atualizar Agora
-            </button>
+    <button onclick="location.reload()" class="botao-update">
+        <span class="icon">🔄</span> Atualizar Agora
+    </button>
+</div>
             
         </div> <footer>
             <p>Dados obtidos em tempo real do Mercado Livre</p>

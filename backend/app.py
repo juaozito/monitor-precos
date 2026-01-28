@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request # Adicionamos o 'request' aqui
 import os
 import sys
 
@@ -12,9 +12,16 @@ app = Flask(__name__,
             template_folder='../frontend/templates', 
             static_folder='../frontend/static')
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def home():
-    produto_info = rastrear_produto()
+    url_padrao = 'https://www.mercadolivre.com.br/apple-iphone-15-128-gb-preto/p/MLB27393220'
+
+    if request.method == 'POST':
+        url_usuario = request.form.get('url_produto')
+        if url_usuario:
+            url_padrao = url_usuario
+
+    produto_info = rastrear_produto(url_padrao)
     return render_template('index.html', produto=produto_info)
 
 if __name__ == "__main__":
